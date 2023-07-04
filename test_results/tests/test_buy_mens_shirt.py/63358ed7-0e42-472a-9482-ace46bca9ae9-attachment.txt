@@ -1,0 +1,9 @@
+Start Test Looking For Shops
+Current Url https://www.oodji.com/
+Current Url https://www.oodji.com/
+Click Button Map
+Input Citi
+Click Search Button
+Current Url https://www.oodji.com/map/
+Screenshot Is Done
+End Test Looking For Shops

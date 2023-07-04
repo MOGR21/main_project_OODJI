@@ -1,0 +1,15 @@
+C:\Users\MOGR\PycharmProjects\main_project_OODJI\utilities\chromedriver.exe
+Start Test Buy Mens Shirt
+Current Url https://www.oodji.com/
+Click Mens Collection
+Current Url https://www.oodji.com/mens_collection/
+Click Rubashki
+Current Url https://www.oodji.com/mens_collection/rubashki/
+Good Value Url
+Click Shirt 11725233-1000N
+Current Url https://www.oodji.com/mens_collection/11725837-4312C/
+Click Shirt Size 50
+Click Cart Button
+Click Cart Icon
+Current Url https://www.oodji.com/cart/
+Good Value Url

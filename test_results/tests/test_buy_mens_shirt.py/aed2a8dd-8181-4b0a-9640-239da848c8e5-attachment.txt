@@ -1,0 +1,22 @@
+Start Test Buy Womens Platya
+Current Url https://www.oodji.com/
+Click Womens Collection
+Current Url https://www.oodji.com/womens_collection/
+Click Platya
+Current Url https://www.oodji.com/womens_collection/platya/
+Good Value Url
+Click Check Box Ultra
+Click Check Box Krasnyj
+Click Check Box Size Hl 48
+Click Check Box Sale
+Select Platye
+Current Url https://www.oodji.com/womens_collection/11725139-4500N/
+Click Shirt Size 48
+Click Cart Button
+Click Cart Icon
+Good Value Word
+Current Url https://www.oodji.com/cart/
+Good Value Url
+Click Basket Checkout Button
+Screenshot Is Done
+End Test Buy Womens Platya
