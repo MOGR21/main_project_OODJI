@@ -1,6 +1,6 @@
 import time
 from time import sleep
-
+import allure
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -58,17 +58,19 @@ class MainPage(Base):
     # Methods
 
     def open_main_page(self):
-        self.driver.get(self.url)
-        self.driver.maximize_window()
-        self.get_current_url()
+        with allure.step("Open Main Page"):
+            self.driver.get(self.url)
+            self.driver.maximize_window()
+            self.get_current_url()
 
     def select_map(self):
         self.get_current_url()
         self.click_select_map()
 
     def open_mens_collection(self):
-        self.click_mens_collection()
-        self.get_current_url()
+        with allure.step("Open Mens Collection"):
+            self.click_mens_collection()
+            self.get_current_url()
 
     def open_womens_collection(self):
         self.click_womens_collection()

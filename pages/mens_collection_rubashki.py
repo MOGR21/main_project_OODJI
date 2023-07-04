@@ -1,5 +1,5 @@
 import time
-
+import allure
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -55,10 +55,12 @@ class MansCollectionRubashki(Base):
     # Methods
 
     def select_product(self):
-        time.sleep(5)
-        self.click_shirt_1()
-        self.get_current_url()
-        self.click_radio_size_50()
-        self.click_cart_button()
-        self.click_cart_icon()
+        with allure.step("Select Product"):
+            time.sleep(5)
+            self.click_shirt_1()
+            self.get_current_url()
+            self.click_radio_size_50()
+            self.click_cart_button()
+            time.sleep(3)
+            self.click_cart_icon()
 

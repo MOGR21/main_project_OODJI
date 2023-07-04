@@ -1,5 +1,6 @@
+import pathlib
 import time
-
+import allure
 from selenium import webdriver
 
 from pages.cart_page import CartPage
@@ -7,11 +8,16 @@ from pages.main_page import MainPage
 from pages.map_page import MapPage
 from pages.mens_collection_page import MansCollectionPage
 from pages.mens_collection_rubashki import MansCollectionRubashki
+from pathlib import Path
 
 
+@allure.description("Test Buy Mens Shirt")
 def test_buy_mens_shirt():
 
-    driver = webdriver.Chrome('C:\\Users\\MOGR\\PycharmProjects\\main_project_OODJI\\utilities\\chromedriver.exe')
+    dir_path = pathlib.Path.home()
+    path = Path(dir_path, 'PycharmProjects', 'main_project_OODJI', 'utilities', 'chromedriver.exe')
+    print(str(path))
+    driver = webdriver.Chrome(path)
 
     print("Start Test Buy Mens Shirt")
 
